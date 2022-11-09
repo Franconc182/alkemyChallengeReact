@@ -1,14 +1,24 @@
-import {Routes, Route} from 'react-router-dom'
+//Libraries
+import { Routes, Route } from 'react-router-dom';
+
+//Components
 import Login from './components/Login';
-import Movies from './components/Movies';
+import MoviesC from './pages/Moviespage';
+import Home from './pages/Homepage';
+
+//styles
+import './styles/app.css'
 
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Login/>}/>
-        <Route path="/movies" element={<Movies/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/movies" element={<MoviesC />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );

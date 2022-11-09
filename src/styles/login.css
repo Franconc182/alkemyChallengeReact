@@ -3,3 +3,23 @@
     justify-content: center;
     align-content: center;
 }
+
+.login-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 81.4vh;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}

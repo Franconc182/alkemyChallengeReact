@@ -40,20 +40,22 @@ export default function Login() {
 
     return (
         <>
-            <h2>Login</h2>
-            <form onSubmit={handleSubmit}>
-                <label>
-                    <span>Email:</span><br />
-                    <input type="text" name="email" />
-                </label>
-                <br />
-                <label>
-                    <span>Password:</span><br />
-                    <input type="password" name="password" />
-                </label>
-                <br />
-                <button type="submit">Ingresar</button>
-            </form>
+            <div className='login-div'>
+                <h2>Login</h2>
+                <form className='form-login' onSubmit={handleSubmit}>
+                    <label>
+                        <span>Email:</span><br />
+                        <input type="text" name="email" />
+                    </label>
+                    <br />
+                    <label>
+                        <span>Password:</span><br />
+                        <input type="password" name="password" />
+                    </label>
+                    <br />
+                    <button type="submit">Login</button>
+                </form>
+            </div>
         </>
     )
 }

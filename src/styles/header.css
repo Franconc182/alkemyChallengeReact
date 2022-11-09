@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../static/fondo.jpg);
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(30, 29, 29, 0.415);
+    align-items: center;
+    height: 5rem;
+}
+
+.ul-header {
+    list-style-type: none;
+    display: flex;
+    gap: .5rem;
+}
+
+.redflix-logo {
+    width: 130px;
+    margin-left: 2rem;
+}
+
+/*btn navbar login*/
+.btn-navbar {
+    padding: 10px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #000;
+    background-color: #00a8c6;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(87, 87, 87, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-navbar:hover {
+    background-color: #00a8c6;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn-navbar:active{
+    transform: translateY(-1px);
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.a-navbar:hover{
+    background-color: rgba(0, 0, 0, 0.786);
+    transition-duration: 0.5s;
+}
